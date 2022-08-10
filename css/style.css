@@ -1,0 +1,18 @@
+.reveal #OOP, .reveal #FP {
+  font-size: 50px;
+}
+#s1-2 {
+  background: url(../images/2.1.jpeg) no-repeat center;
+  background-size: auto;
+  height: 100%;
+}
+#s1-3, #s2-1 {
+  text-align: start;
+} 
+#s1-5 li, #s2-2 li {
+  font-size: 30px;
+}
+#s1-5 li:first-child {
+  padding-top: 10px;
+}
+#s2-1

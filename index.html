@@ -12,22 +12,69 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body>
 
 		<div class="reveal">
 			<div class="slides">
-        <section><h1>Object Oriented Programming (OOP)</section></h1>          
-				<section>OOP - is a programming paradigm based on the concept of "objects", which can contain data and code:<br><br>
-          - data in the form of fields (often known as attributes or properties) <br> - code, in the form of procedures (often known as methods)
-          <section></section>
+        <section id="OOP">Functional Programming <br>VS<br>Object Oriented Programming         
+        </section>        
+        <section id="s1-1">Object Oriented Programming (OOP)</section>
+        <section id="s1-2">What is OOP ?</section>
+        <section id="s1-3"><b>Object Oriented Programming (OOP) -</b><br>is a programming paradigm in which you program using objects to represent things you are programming about (sometimes real world things). <br><br>These objects could be data structures. <br>The objects hold data about them in attributes. <br>The attributes in the objects are manipulated through methods or functions that are given to the object.
+        </section>      
+        <section id="s1-4">
+          in JAVA
+          <pre><code>
+            class Dog {
+              public String name;
+              public String breed;
+
+              public void bark() {
+                  System.out.println("Woof Woof!");
+              }
+            }
+          </code></pre>    
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="s1-5">
+          in Java Script
+          <pre><code>
+              class Dog {
+                name
+                breed
+
+                bark() {
+                    console.log("Woof Woof!")
+                }
+              }
+          </code></pre>
+        </section>
+        <section id="s1-5">
+          <ul>OOP paradigm defines these concepts all in all:
+            <li> Abstraction: Reducing the complexity of a program;</li>
+            <li> Class: Defining the structure of an entity;</li>
+            <li> Encapsulation: Combining the data to form a new one;</li>
+            <li> Information hiding: Hiding the unnecessary data to reduce the complexity;</li>
+            <li> Inheritance: Defining the relationship between classes;</li>
+            <li> Interface: Using the hardware input and output and other programs;</li>
+            <li> Object: An entity derived from a class;</li>
+            <li> Polymorphism: The ability to perform multiple tasks and appear in multiple ways;</li>
+          </ul>
+        </section>
+        <section id="FP">Functional Programming</section>
+        <section id="s2-1"><b>Functional programming -</b><br><br>
+          is a programming paradigm where programs are constructed by applying and composing functions. <br>It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.</section>
+        <section id="s2-2">
+          <ul>Functional Programming concepts:<br><br>
+            <li>Immutability: The inability of changing the value of a variable;</li>
+            <li>Pure functions: Functions have no side effects;</li>
+            <li>Recursion: Recursion is a function that calls itself;</li>            
+          </ul>
+        </section>
+        <section id="s2-3">
+          When to use OOP or FP?
+        </section>
 			</div>
 		</div>
 
