@@ -15,4 +15,23 @@
 #s1-5 li:first-child {
   padding-top: 10px;
 }
-#s2-1
+caption {
+  padding-bottom: 20px;
+}
+.reveal section td {
+  border-collapse: collapse;
+  border: 1px solid #ffff;
+  font-size: 22px;
+  width: 800px;
+}
+.reveal section th {
+  text-align: center;
+  font-size: 30px;
+  border-collapse: collapse;
+  border: 1px solid #ffff;
+  width: 800px;
+}
+.reveal #s2-5 {
+  font-size: 22px;
+  text-align: left;
+}

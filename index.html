@@ -62,6 +62,31 @@
             <li> Polymorphism: The ability to perform multiple tasks and appear in multiple ways;</li>
           </ul>
         </section>
+        <section id="s1-6">
+          <table>
+            <caption>OOP Pros and Cons</caption>
+            <tr>
+              <th>Pros</th>
+              <th>Cons</th>
+            </tr>
+            <tr>
+              <td>|Easy to read.<br>There is no need to search through the code for functions and find out what they are responsible for</td>
+              <td>Difficult to get started.<br>The OOP paradigm is more complex than functional programming, so it takes longer to get started</td>
+            </tr>
+            <tr>
+              <td>Quick to write.<br>You can quickly create the entities you want the programme to work with</td>
+              <td>Reduces productivity.<br>Many things are technically implemented differently, so they use more resources</td>
+            </tr>
+            <tr>
+              <td>It is easier to implement large functionalities, because it takes less time to write the codeIt is easier to implement large unctionalities</td>
+              <td>Uses more memory.<br>Objects consume more RAM than primitive data types</td>
+            </tr>
+            <tr>
+              <td>There is less repetition.<br>No need to write the same functions for different entities</td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
         <section id="FP">Functional Programming</section>
         <section id="s2-1"><b>Functional programming -</b><br><br>
           is a programming paradigm where programs are constructed by applying and composing functions. <br>It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.</section>
@@ -70,10 +95,53 @@
             <li>Immutability: The inability of changing the value of a variable;</li>
             <li>Pure functions: Functions have no side effects;</li>
             <li>Recursion: Recursion is a function that calls itself;</li>            
+            <li>Higher-order functions: Functions that can take other functions as arguments, or return other functions as results;</li>            
+            <li>Mapping: Conversion of a function with many arguments, to a set of functions from a single argument;</li>            
+            <li>Function composition: Application of one function to the result of another function;</li>            
           </ul>
         </section>
         <section id="s2-3">
-          When to use OOP or FP?
+          <table>
+            <caption>FP Pros and Cons</caption>
+            <tr>
+              <th>Pros</th>
+              <th>Cons</th>
+            </tr>
+            <tr>
+              <td>Reliability and testability Section of the article "Reliability and testability.<br>The pure functions that underlie FPs are reliable because they always produce the same result with the same input data
+              </td>
+              <td>Increased memory consumption Section of the article "Increased memory consumption".<br>Since the program state is immutable, a complete copy of the program has to be created when it is "modified"
+              </td>
+            </tr>
+            <tr>
+              <td>Compilation Optimisation Section of the article "Compilation Optimisation".<br>When compiling code that has reference transparency, some of its pieces can be "executed" beforehand and get a ready value
+              </td>
+              <td>There is no efficient dictionary for functional languages.<br>Purely functional dictionaries are slower than hash tables, and for some applications this may be critical
+              </td>
+            </tr>
+            <tr>
+              <td>Parallelism and thread-safety Article Section "Parallelism and thread-safety".<br>Functional programming forbids state swapping, which means that a situation where two functions try to write different values into the same variable will not occur
+              </td>
+              <td>Functional programming is not suitable for graph algorithms (because of the slow performance) and generally for those solutions which have been based on imperative programming for decades                
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </section>
+        <section id="s2-4">
+          What to use OOP or FP ?
+        </section>
+        <section id="s2-5">
+          Because OOP focuses on data, it is an excellent candidate for data modelling. On the other hand, because functional programming focuses on operations, it should be used for data processing.<br><br>
+          Object-oriented and functional programming have different basic concepts, but this does not mean that they are mutually exclusive.<br><br>
+
+          A functional language can have object-oriented features and an object-oriented language can have functional features.<br><br>
+
+          <i style ="text-decoration: underline;">If we see a project as a collection of "boxes", it's convenient to use OOP. If as streams of data transformations, then FP is more convenient. If that's not suitable, then do a hybrid or come up with something else.</i>
+
         </section>
 			</div>
 		</div>
