@@ -108,19 +108,19 @@
               <th>Cons</th>
             </tr>
             <tr>
-              <td>Reliability and testability Section of the article "Reliability and testability.<br>The pure functions that underlie FPs are reliable because they always produce the same result with the same input data
+              <td>Reliability and testability.<br>The pure functions that underlie FPs are reliable because they always produce the same result with the same input data
               </td>
-              <td>Increased memory consumption Section of the article "Increased memory consumption".<br>Since the program state is immutable, a complete copy of the program has to be created when it is "modified"
+              <td>Increased memory consumption.<br>Since the program state is immutable, a complete copy of the program has to be created when it is "modified"
               </td>
             </tr>
             <tr>
-              <td>Compilation Optimisation Section of the article "Compilation Optimisation".<br>When compiling code that has reference transparency, some of its pieces can be "executed" beforehand and get a ready value
+              <td>Compilation Optimisation.<br>When compiling code that has reference transparency, some of its pieces can be "executed" beforehand and get a ready value
               </td>
               <td>There is no efficient dictionary for functional languages.<br>Purely functional dictionaries are slower than hash tables, and for some applications this may be critical
               </td>
             </tr>
             <tr>
-              <td>Parallelism and thread-safety Article Section "Parallelism and thread-safety".<br>Functional programming forbids state swapping, which means that a situation where two functions try to write different values into the same variable will not occur
+              <td>Parallelism and thread-safety.<br>Functional programming forbids state swapping, which means that a situation where two functions try to write different values into the same variable will not occur
               </td>
               <td>Functional programming is not suitable for graph algorithms (because of the slow performance) and generally for those solutions which have been based on imperative programming for decades                
               </td>
@@ -140,7 +140,8 @@
 
           A functional language can have object-oriented features and an object-oriented language can have functional features.<br><br>
 
-          <i style ="text-decoration: underline;">If we see a project as a collection of "boxes", it's convenient to use OOP. If as streams of data transformations, then FP is more convenient. If that's not suitable, then do a hybrid or come up with something else.</i>
+          <p>If we see a project as a collection of "boxes", it's convenient to use OOP. If as streams of data transformations, then FP is more convenient. If that's not suitable, then do a hybrid or come up with something else.</p>
+          <p>FP and OOP work well together. Both are good and right to use in modern systems. A system that is built on a combination of OOP and FP principles maximizes flexibility, maintainability, testability, simplicity, and robustness. Removing one for the sake of adding the other will only worsen the structure of the system.</p>
 
         </section>
 			</div>
@@ -156,6 +157,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+        slideNumber: true,
+      
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
